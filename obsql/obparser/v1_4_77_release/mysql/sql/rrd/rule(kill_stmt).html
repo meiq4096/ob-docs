@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>OBParser.g4</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <style>
+        body {
+    padding: 20px;
+}
+
+h1 {
+    padding-bottom: 10px;
+}
+
+.border-notop td{
+ border-top: none;
+ }
+    </style>
+</head>
+<body>
+    <h1>OBParser.g4</h1>
+    <table class="table">
+        <tbody>
+            <tr><td id="kill_stmt"><h4>kill_stmt</h4></td><td><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="385" height="122" viewBox="0 0 385 122">
+<style type="text/css">svg.railroad-diagram {
+    background-color: hsl(30,20%,95%);
+}
+svg.railroad-diagram path {
+    stroke-width: 3;
+    stroke: black;
+    fill-opacity: 0;
+}
+svg.railroad-diagram text {
+    font: bold 14px monospace;
+    text-anchor: middle;
+}
+svg.railroad-diagram text.label {
+    text-anchor: start;
+}
+svg.railroad-diagram text.comment {
+    font: italic 12px monospace;
+}
+svg.railroad-diagram rect {
+    stroke-width: 3;
+    stroke: black;
+    fill: #9db0e5;
+}
+svg.railroad-diagram rect[rx~="10"] {
+    fill: #c7a6d8;
+}</style>
+<g transform="translate(.5 .5)">
+<path d="M 20 21 v 20 m 10 -20 v 20 m -10 -10 h 20.5">
+</path>
+<g>
+<path d="M40 31h0">
+</path>
+<path d="M344 31h0">
+</path>
+<path d="M40 31h20">
+</path>
+<g>
+<path d="M60 31h60">
+</path>
+<path d="M264 31h60">
+</path>
+<path d="M120 31h10">
+</path>
+<g>
+<path d="M130 31h0">
+</path>
+<path d="M182 31h0">
+</path>
+<rect x="130" y="20" width="52" height="22" rx="10" ry="10">
+</rect>
+<text x="156" y="35">
+KILL</text>
+</g>
+<path d="M182 31h10">
+</path>
+<path d="M192 31h10">
+</path>
+<g>
+<path d="M202 31h0">
+</path>
+<path d="M254 31h0">
+</path>
+<rect x="202" y="20" width="52" height="22">
+</rect>
+<a xlink:href="rule(kill_stmt).html#expr"><text x="228" y="35">
+expr</text></a>
+</g>
+<path d="M254 31h10">
+</path>
+</g>
+<path d="M324 31h20">
+</path>
+<path d="M40 31a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10">
+</path>
+<g>
+<path d="M60 61h0">
+</path>
+<path d="M324 61h0">
+</path>
+<path d="M60 61h10">
+</path>
+<g>
+<path d="M70 61h0">
+</path>
+<path d="M122 61h0">
+</path>
+<rect x="70" y="50" width="52" height="22" rx="10" ry="10">
+</rect>
+<text x="96" y="65">
+KILL</text>
+</g>
+<path d="M122 61h10">
+</path>
+<path d="M132 61h10">
+</path>
+<g>
+<path d="M142 61h0">
+</path>
+<path d="M242 61h0">
+</path>
+<rect x="142" y="50" width="100" height="22" rx="10" ry="10">
+</rect>
+<text x="192" y="65">
+CONNECTION</text>
+</g>
+<path d="M242 61h10">
+</path>
+<path d="M252 61h10">
+</path>
+<g>
+<path d="M262 61h0">
+</path>
+<path d="M314 61h0">
+</path>
+<rect x="262" y="50" width="52" height="22">
+</rect>
+<a xlink:href="rule(kill_stmt).html#expr"><text x="288" y="65">
+expr</text></a>
+</g>
+<path d="M314 61h10">
+</path>
+</g>
+<path d="M324 61a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10">
+</path>
+<path d="M40 31a10 10 0 0 1 10 10v40a10 10 0 0 0 10 10">
+</path>
+<g>
+<path d="M60 91h20">
+</path>
+<path d="M304 91h20">
+</path>
+<path d="M80 91h10">
+</path>
+<g>
+<path d="M90 91h0">
+</path>
+<path d="M142 91h0">
+</path>
+<rect x="90" y="80" width="52" height="22" rx="10" ry="10">
+</rect>
+<text x="116" y="95">
+KILL</text>
+</g>
+<path d="M142 91h10">
+</path>
+<path d="M152 91h10">
+</path>
+<g>
+<path d="M162 91h0">
+</path>
+<path d="M222 91h0">
+</path>
+<rect x="162" y="80" width="60" height="22" rx="10" ry="10">
+</rect>
+<text x="192" y="95">
+QUERY</text>
+</g>
+<path d="M222 91h10">
+</path>
+<path d="M232 91h10">
+</path>
+<g>
+<path d="M242 91h0">
+</path>
+<path d="M294 91h0">
+</path>
+<rect x="242" y="80" width="52" height="22">
+</rect>
+<a xlink:href="rule(kill_stmt).html#expr"><text x="268" y="95">
+expr</text></a>
+</g>
+<path d="M294 91h10">
+</path>
+</g>
+<path d="M324 91a10 10 0 0 0 10 -10v-40a10 10 0 0 1 10 -10">
+</path>
+</g>
+<path d="M 344 31 h 20 m -10 -10 v 20 m 10 -20 v 20">
+</path>
+</g>
+</svg>
+</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>

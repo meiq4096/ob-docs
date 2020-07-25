@@ -1,0 +1,22 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<title>OceanBase SQL/PL语法</title>
+</head><body>
+<p>选择一个SQL语句类型，查看OB-mysql-pl语法（OB 2.2.50）：</p><ol>
+<li><a href="rule(outer_stmt?).html">outer_stmt?</a></li>
+<li><a href="rule(create_procedure_stmt).html">create_procedure_stmt</a></li>
+<li><a href="rule(create_function_stmt).html">create_function_stmt</a></li>
+<li><a href="rule(drop_procedure_stmt).html">drop_procedure_stmt</a></li>
+<li><a href="rule(drop_function_stmt).html">drop_function_stmt</a></li>
+<li><a href="rule(alter_procedure_stmt).html">alter_procedure_stmt</a></li>
+<li><a href="rule(alter_function_stmt).html">alter_function_stmt</a></li>
+<li><a href="rule(sql_stmt).html">sql_stmt</a></li>
+<li><a href="rule(call_sp_stmt).html">call_sp_stmt</a></li>
+<li><a href="rule(do_sp_stmt).html">do_sp_stmt</a></li>
+<li><a href="rule(signal_stmt).html">signal_stmt</a></li>
+<li><a href="rule(resignal_stmt).html">resignal_stmt</a></li>
+</ol></body></html>

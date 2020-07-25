@@ -1,0 +1,1547 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>OBParser.g4</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <style>
+        body {
+    padding: 20px;
+}
+
+h1 {
+    padding-bottom: 10px;
+}
+
+.border-notop td{
+ border-top: none;
+ }
+    </style>
+</head>
+<body>
+    <h1>OBParser.g4</h1>
+    <table class="table">
+        <tbody>
+            <tr><td id="create_synonym_stmt"><h4>create_synonym_stmt</h4></td><td><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="1637" height="192" viewBox="0 0 1637 192">
+<style type="text/css">svg.railroad-diagram {
+    background-color: hsl(30,20%,95%);
+}
+svg.railroad-diagram path {
+    stroke-width: 3;
+    stroke: black;
+    fill-opacity: 0;
+}
+svg.railroad-diagram text {
+    font: bold 14px monospace;
+    text-anchor: middle;
+}
+svg.railroad-diagram text.label {
+    text-anchor: start;
+}
+svg.railroad-diagram text.comment {
+    font: italic 12px monospace;
+}
+svg.railroad-diagram rect {
+    stroke-width: 3;
+    stroke: black;
+    fill: #9db0e5;
+}
+svg.railroad-diagram rect[rx~="10"] {
+    fill: #c7a6d8;
+}</style>
+<g transform="translate(.5 .5)">
+<path d="M 20 31 v 20 m 10 -20 v 20 m -10 -10 h 20.5">
+</path>
+<g>
+<path d="M40 41h0">
+</path>
+<path d="M1596 41h0">
+</path>
+<path d="M40 41h20">
+</path>
+<g>
+<path d="M60 41h208">
+</path>
+<path d="M1368 41h208">
+</path>
+<path d="M268 41h10">
+</path>
+<g>
+<path d="M278 41h0">
+</path>
+<path d="M346 41h0">
+</path>
+<rect x="278" y="30" width="68" height="22" rx="10" ry="10">
+</rect>
+<text x="312" y="45">
+CREATE</text>
+</g>
+<path d="M346 41h10">
+</path>
+<g>
+<path d="M356 41h0">
+</path>
+<path d="M588 41h0">
+</path>
+<path d="M356 41a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10">
+</path>
+<g>
+<path d="M376 21h192">
+</path>
+</g>
+<path d="M568 21a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10">
+</path>
+<path d="M356 41h20">
+</path>
+<g>
+<path d="M376 41h0">
+</path>
+<path d="M568 41h0">
+</path>
+<path d="M376 41h20">
+</path>
+<g>
+<path d="M396 41h0">
+</path>
+<path d="M548 41h0">
+</path>
+<path d="M396 41h10">
+</path>
+<g>
+<path d="M406 41h0">
+</path>
+<path d="M442 41h0">
+</path>
+<rect x="406" y="30" width="36" height="22" rx="10" ry="10">
+</rect>
+<text x="424" y="45">
+OR</text>
+</g>
+<path d="M442 41h10">
+</path>
+<path d="M452 41h10">
+</path>
+<g>
+<path d="M462 41h0">
+</path>
+<path d="M538 41h0">
+</path>
+<rect x="462" y="30" width="76" height="22" rx="10" ry="10">
+</rect>
+<text x="500" y="45">
+REPLACE</text>
+</g>
+<path d="M538 41h10">
+</path>
+</g>
+<path d="M548 41h20">
+</path>
+</g>
+<path d="M568 41h20">
+</path>
+</g>
+<g>
+<path d="M588 41h0">
+</path>
+<path d="M696 41h0">
+</path>
+<path d="M588 41a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10">
+</path>
+<g>
+<path d="M608 21h68">
+</path>
+</g>
+<path d="M676 21a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10">
+</path>
+<path d="M588 41h20">
+</path>
+<g>
+<path d="M608 41h0">
+</path>
+<path d="M676 41h0">
+</path>
+<rect x="608" y="30" width="68" height="22" rx="10" ry="10">
+</rect>
+<text x="642" y="45">
+PUBLIC</text>
+</g>
+<path d="M676 41h20">
+</path>
+</g>
+<path d="M696 41h10">
+</path>
+<g>
+<path d="M706 41h0">
+</path>
+<path d="M782 41h0">
+</path>
+<rect x="706" y="30" width="76" height="22" rx="10" ry="10">
+</rect>
+<text x="744" y="45">
+SYNONYM</text>
+</g>
+<path d="M782 41h10">
+</path>
+<path d="M792 41h10">
+</path>
+<g>
+<path d="M802 41h0">
+</path>
+<path d="M918 41h0">
+</path>
+<rect x="802" y="30" width="116" height="22">
+</rect>
+<a xlink:href="rule(create_synonym_stmt).html#synonym_name"><text x="860" y="45">
+synonym_name</text></a>
+</g>
+<path d="M918 41h10">
+</path>
+<path d="M928 41h10">
+</path>
+<g>
+<path d="M938 41h0">
+</path>
+<path d="M982 41h0">
+</path>
+<rect x="938" y="30" width="44" height="22" rx="10" ry="10">
+</rect>
+<text x="960" y="45">
+FOR</text>
+</g>
+<path d="M982 41h10">
+</path>
+<path d="M992 41h10">
+</path>
+<g>
+<path d="M1002 41h0">
+</path>
+<path d="M1134 41h0">
+</path>
+<rect x="1002" y="30" width="132" height="22">
+</rect>
+<a xlink:href="rule(create_synonym_stmt).html#synonym_object"><text x="1068" y="45">
+synonym_object</text></a>
+</g>
+<path d="M1134 41h10">
+</path>
+<g>
+<path d="M1144 41h0">
+</path>
+<path d="M1368 41h0">
+</path>
+<path d="M1144 41a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10">
+</path>
+<g>
+<path d="M1164 21h184">
+</path>
+</g>
+<path d="M1348 21a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10">
+</path>
+<path d="M1144 41h20">
+</path>
+<g>
+<path d="M1164 41h0">
+</path>
+<path d="M1348 41h0">
+</path>
+<path d="M1164 41h20">
+</path>
+<g>
+<path d="M1184 41h0">
+</path>
+<path d="M1328 41h0">
+</path>
+<path d="M1184 41h10">
+</path>
+<g>
+<path d="M1194 41h0">
+</path>
+<path d="M1222 41h0">
+</path>
+<rect x="1194" y="30" width="28" height="22" rx="10" ry="10">
+</rect>
+<text x="1208" y="45">
+@</text>
+</g>
+<path d="M1222 41h10">
+</path>
+<path d="M1232 41h10">
+</path>
+<g>
+<path d="M1242 41h0">
+</path>
+<path d="M1318 41h0">
+</path>
+<rect x="1242" y="30" width="76" height="22">
+</rect>
+<a xlink:href="rule(create_synonym_stmt).html#ip_port"><text x="1280" y="45">
+ip_port</text></a>
+</g>
+<path d="M1318 41h10">
+</path>
+</g>
+<path d="M1328 41h20">
+</path>
+</g>
+<path d="M1348 41h20">
+</path>
+</g>
+</g>
+<path d="M1576 41h20">
+</path>
+<path d="M40 41a10 10 0 0 1 10 10v20a10 10 0 0 0 10 10">
+</path>
+<g>
+<path d="M60 81h104">
+</path>
+<path d="M1472 81h104">
+</path>
+<path d="M164 81h10">
+</path>
+<g>
+<path d="M174 81h0">
+</path>
+<path d="M242 81h0">
+</path>
+<rect x="174" y="70" width="68" height="22" rx="10" ry="10">
+</rect>
+<text x="208" y="85">
+CREATE</text>
+</g>
+<path d="M242 81h10">
+</path>
+<g>
+<path d="M252 81h0">
+</path>
+<path d="M484 81h0">
+</path>
+<path d="M252 81a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10">
+</path>
+<g>
+<path d="M272 61h192">
+</path>
+</g>
+<path d="M464 61a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10">
+</path>
+<path d="M252 81h20">
+</path>
+<g>
+<path d="M272 81h0">
+</path>
+<path d="M464 81h0">
+</path>
+<path d="M272 81h20">
+</path>
+<g>
+<path d="M292 81h0">
+</path>
+<path d="M444 81h0">
+</path>
+<path d="M292 81h10">
+</path>
+<g>
+<path d="M302 81h0">
+</path>
+<path d="M338 81h0">
+</path>
+<rect x="302" y="70" width="36" height="22" rx="10" ry="10">
+</rect>
+<text x="320" y="85">
+OR</text>
+</g>
+<path d="M338 81h10">
+</path>
+<path d="M348 81h10">
+</path>
+<g>
+<path d="M358 81h0">
+</path>
+<path d="M434 81h0">
+</path>
+<rect x="358" y="70" width="76" height="22" rx="10" ry="10">
+</rect>
+<text x="396" y="85">
+REPLACE</text>
+</g>
+<path d="M434 81h10">
+</path>
+</g>
+<path d="M444 81h20">
+</path>
+</g>
+<path d="M464 81h20">
+</path>
+</g>
+<g>
+<path d="M484 81h0">
+</path>
+<path d="M592 81h0">
+</path>
+<path d="M484 81a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10">
+</path>
+<g>
+<path d="M504 61h68">
+</path>
+</g>
+<path d="M572 61a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10">
+</path>
+<path d="M484 81h20">
+</path>
+<g>
+<path d="M504 81h0">
+</path>
+<path d="M572 81h0">
+</path>
+<rect x="504" y="70" width="68" height="22" rx="10" ry="10">
+</rect>
+<text x="538" y="85">
+PUBLIC</text>
+</g>
+<path d="M572 81h20">
+</path>
+</g>
+<path d="M592 81h10">
+</path>
+<g>
+<path d="M602 81h0">
+</path>
+<path d="M678 81h0">
+</path>
+<rect x="602" y="70" width="76" height="22" rx="10" ry="10">
+</rect>
+<text x="640" y="85">
+SYNONYM</text>
+</g>
+<path d="M678 81h10">
+</path>
+<path d="M688 81h10">
+</path>
+<g>
+<path d="M698 81h0">
+</path>
+<path d="M838 81h0">
+</path>
+<rect x="698" y="70" width="140" height="22">
+</rect>
+<a xlink:href="rule(create_synonym_stmt).html#database_factor"><text x="768" y="85">
+database_factor</text></a>
+</g>
+<path d="M838 81h10">
+</path>
+<path d="M848 81h10">
+</path>
+<g>
+<path d="M858 81h0">
+</path>
+<path d="M886 81h0">
+</path>
+<rect x="858" y="70" width="28" height="22" rx="10" ry="10">
+</rect>
+<text x="872" y="85">
+.</text>
+</g>
+<path d="M886 81h10">
+</path>
+<path d="M896 81h10">
+</path>
+<g>
+<path d="M906 81h0">
+</path>
+<path d="M1022 81h0">
+</path>
+<rect x="906" y="70" width="116" height="22">
+</rect>
+<a xlink:href="rule(create_synonym_stmt).html#synonym_name"><text x="964" y="85">
+synonym_name</text></a>
+</g>
+<path d="M1022 81h10">
+</path>
+<path d="M1032 81h10">
+</path>
+<g>
+<path d="M1042 81h0">
+</path>
+<path d="M1086 81h0">
+</path>
+<rect x="1042" y="70" width="44" height="22" rx="10" ry="10">
+</rect>
+<text x="1064" y="85">
+FOR</text>
+</g>
+<path d="M1086 81h10">
+</path>
+<path d="M1096 81h10">
+</path>
+<g>
+<path d="M1106 81h0">
+</path>
+<path d="M1238 81h0">
+</path>
+<rect x="1106" y="70" width="132" height="22">
+</rect>
+<a xlink:href="rule(create_synonym_stmt).html#synonym_object"><text x="1172" y="85">
+synonym_object</text></a>
+</g>
+<path d="M1238 81h10">
+</path>
+<g>
+<path d="M1248 81h0">
+</path>
+<path d="M1472 81h0">
+</path>
+<path d="M1248 81a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10">
+</path>
+<g>
+<path d="M1268 61h184">
+</path>
+</g>
+<path d="M1452 61a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10">
+</path>
+<path d="M1248 81h20">
+</path>
+<g>
+<path d="M1268 81h0">
+</path>
+<path d="M1452 81h0">
+</path>
+<path d="M1268 81h20">
+</path>
+<g>
+<path d="M1288 81h0">
+</path>
+<path d="M1432 81h0">
+</path>
+<path d="M1288 81h10">
+</path>
+<g>
+<path d="M1298 81h0">
+</path>
+<path d="M1326 81h0">
+</path>
+<rect x="1298" y="70" width="28" height="22" rx="10" ry="10">
+</rect>
+<text x="1312" y="85">
+@</text>
+</g>
+<path d="M1326 81h10">
+</path>
+<path d="M1336 81h10">
+</path>
+<g>
+<path d="M1346 81h0">
+</path>
+<path d="M1422 81h0">
+</path>
+<rect x="1346" y="70" width="76" height="22">
+</rect>
+<a xlink:href="rule(create_synonym_stmt).html#ip_port"><text x="1384" y="85">
+ip_port</text></a>
+</g>
+<path d="M1422 81h10">
+</path>
+</g>
+<path d="M1432 81h20">
+</path>
+</g>
+<path d="M1452 81h20">
+</path>
+</g>
+</g>
+<path d="M1576 81a10 10 0 0 0 10 -10v-20a10 10 0 0 1 10 -10">
+</path>
+<path d="M40 41a10 10 0 0 1 10 10v60a10 10 0 0 0 10 10">
+</path>
+<g>
+<path d="M60 121h104">
+</path>
+<path d="M1472 121h104">
+</path>
+<path d="M164 121h10">
+</path>
+<g>
+<path d="M174 121h0">
+</path>
+<path d="M242 121h0">
+</path>
+<rect x="174" y="110" width="68" height="22" rx="10" ry="10">
+</rect>
+<text x="208" y="125">
+CREATE</text>
+</g>
+<path d="M242 121h10">
+</path>
+<g>
+<path d="M252 121h0">
+</path>
+<path d="M484 121h0">
+</path>
+<path d="M252 121a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10">
+</path>
+<g>
+<path d="M272 101h192">
+</path>
+</g>
+<path d="M464 101a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10">
+</path>
+<path d="M252 121h20">
+</path>
+<g>
+<path d="M272 121h0">
+</path>
+<path d="M464 121h0">
+</path>
+<path d="M272 121h20">
+</path>
+<g>
+<path d="M292 121h0">
+</path>
+<path d="M444 121h0">
+</path>
+<path d="M292 121h10">
+</path>
+<g>
+<path d="M302 121h0">
+</path>
+<path d="M338 121h0">
+</path>
+<rect x="302" y="110" width="36" height="22" rx="10" ry="10">
+</rect>
+<text x="320" y="125">
+OR</text>
+</g>
+<path d="M338 121h10">
+</path>
+<path d="M348 121h10">
+</path>
+<g>
+<path d="M358 121h0">
+</path>
+<path d="M434 121h0">
+</path>
+<rect x="358" y="110" width="76" height="22" rx="10" ry="10">
+</rect>
+<text x="396" y="125">
+REPLACE</text>
+</g>
+<path d="M434 121h10">
+</path>
+</g>
+<path d="M444 121h20">
+</path>
+</g>
+<path d="M464 121h20">
+</path>
+</g>
+<g>
+<path d="M484 121h0">
+</path>
+<path d="M592 121h0">
+</path>
+<path d="M484 121a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10">
+</path>
+<g>
+<path d="M504 101h68">
+</path>
+</g>
+<path d="M572 101a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10">
+</path>
+<path d="M484 121h20">
+</path>
+<g>
+<path d="M504 121h0">
+</path>
+<path d="M572 121h0">
+</path>
+<rect x="504" y="110" width="68" height="22" rx="10" ry="10">
+</rect>
+<text x="538" y="125">
+PUBLIC</text>
+</g>
+<path d="M572 121h20">
+</path>
+</g>
+<path d="M592 121h10">
+</path>
+<g>
+<path d="M602 121h0">
+</path>
+<path d="M678 121h0">
+</path>
+<rect x="602" y="110" width="76" height="22" rx="10" ry="10">
+</rect>
+<text x="640" y="125">
+SYNONYM</text>
+</g>
+<path d="M678 121h10">
+</path>
+<path d="M688 121h10">
+</path>
+<g>
+<path d="M698 121h0">
+</path>
+<path d="M814 121h0">
+</path>
+<rect x="698" y="110" width="116" height="22">
+</rect>
+<a xlink:href="rule(create_synonym_stmt).html#synonym_name"><text x="756" y="125">
+synonym_name</text></a>
+</g>
+<path d="M814 121h10">
+</path>
+<path d="M824 121h10">
+</path>
+<g>
+<path d="M834 121h0">
+</path>
+<path d="M878 121h0">
+</path>
+<rect x="834" y="110" width="44" height="22" rx="10" ry="10">
+</rect>
+<text x="856" y="125">
+FOR</text>
+</g>
+<path d="M878 121h10">
+</path>
+<path d="M888 121h10">
+</path>
+<g>
+<path d="M898 121h0">
+</path>
+<path d="M1038 121h0">
+</path>
+<rect x="898" y="110" width="140" height="22">
+</rect>
+<a xlink:href="rule(create_synonym_stmt).html#database_factor"><text x="968" y="125">
+database_factor</text></a>
+</g>
+<path d="M1038 121h10">
+</path>
+<path d="M1048 121h10">
+</path>
+<g>
+<path d="M1058 121h0">
+</path>
+<path d="M1086 121h0">
+</path>
+<rect x="1058" y="110" width="28" height="22" rx="10" ry="10">
+</rect>
+<text x="1072" y="125">
+.</text>
+</g>
+<path d="M1086 121h10">
+</path>
+<path d="M1096 121h10">
+</path>
+<g>
+<path d="M1106 121h0">
+</path>
+<path d="M1238 121h0">
+</path>
+<rect x="1106" y="110" width="132" height="22">
+</rect>
+<a xlink:href="rule(create_synonym_stmt).html#synonym_object"><text x="1172" y="125">
+synonym_object</text></a>
+</g>
+<path d="M1238 121h10">
+</path>
+<g>
+<path d="M1248 121h0">
+</path>
+<path d="M1472 121h0">
+</path>
+<path d="M1248 121a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10">
+</path>
+<g>
+<path d="M1268 101h184">
+</path>
+</g>
+<path d="M1452 101a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10">
+</path>
+<path d="M1248 121h20">
+</path>
+<g>
+<path d="M1268 121h0">
+</path>
+<path d="M1452 121h0">
+</path>
+<path d="M1268 121h20">
+</path>
+<g>
+<path d="M1288 121h0">
+</path>
+<path d="M1432 121h0">
+</path>
+<path d="M1288 121h10">
+</path>
+<g>
+<path d="M1298 121h0">
+</path>
+<path d="M1326 121h0">
+</path>
+<rect x="1298" y="110" width="28" height="22" rx="10" ry="10">
+</rect>
+<text x="1312" y="125">
+@</text>
+</g>
+<path d="M1326 121h10">
+</path>
+<path d="M1336 121h10">
+</path>
+<g>
+<path d="M1346 121h0">
+</path>
+<path d="M1422 121h0">
+</path>
+<rect x="1346" y="110" width="76" height="22">
+</rect>
+<a xlink:href="rule(create_synonym_stmt).html#ip_port"><text x="1384" y="125">
+ip_port</text></a>
+</g>
+<path d="M1422 121h10">
+</path>
+</g>
+<path d="M1432 121h20">
+</path>
+</g>
+<path d="M1452 121h20">
+</path>
+</g>
+</g>
+<path d="M1576 121a10 10 0 0 0 10 -10v-60a10 10 0 0 1 10 -10">
+</path>
+<path d="M40 41a10 10 0 0 1 10 10v100a10 10 0 0 0 10 10">
+</path>
+<g>
+<path d="M60 161h0">
+</path>
+<path d="M1576 161h0">
+</path>
+<path d="M60 161h10">
+</path>
+<g>
+<path d="M70 161h0">
+</path>
+<path d="M138 161h0">
+</path>
+<rect x="70" y="150" width="68" height="22" rx="10" ry="10">
+</rect>
+<text x="104" y="165">
+CREATE</text>
+</g>
+<path d="M138 161h10">
+</path>
+<g>
+<path d="M148 161h0">
+</path>
+<path d="M380 161h0">
+</path>
+<path d="M148 161a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10">
+</path>
+<g>
+<path d="M168 141h192">
+</path>
+</g>
+<path d="M360 141a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10">
+</path>
+<path d="M148 161h20">
+</path>
+<g>
+<path d="M168 161h0">
+</path>
+<path d="M360 161h0">
+</path>
+<path d="M168 161h20">
+</path>
+<g>
+<path d="M188 161h0">
+</path>
+<path d="M340 161h0">
+</path>
+<path d="M188 161h10">
+</path>
+<g>
+<path d="M198 161h0">
+</path>
+<path d="M234 161h0">
+</path>
+<rect x="198" y="150" width="36" height="22" rx="10" ry="10">
+</rect>
+<text x="216" y="165">
+OR</text>
+</g>
+<path d="M234 161h10">
+</path>
+<path d="M244 161h10">
+</path>
+<g>
+<path d="M254 161h0">
+</path>
+<path d="M330 161h0">
+</path>
+<rect x="254" y="150" width="76" height="22" rx="10" ry="10">
+</rect>
+<text x="292" y="165">
+REPLACE</text>
+</g>
+<path d="M330 161h10">
+</path>
+</g>
+<path d="M340 161h20">
+</path>
+</g>
+<path d="M360 161h20">
+</path>
+</g>
+<g>
+<path d="M380 161h0">
+</path>
+<path d="M488 161h0">
+</path>
+<path d="M380 161a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10">
+</path>
+<g>
+<path d="M400 141h68">
+</path>
+</g>
+<path d="M468 141a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10">
+</path>
+<path d="M380 161h20">
+</path>
+<g>
+<path d="M400 161h0">
+</path>
+<path d="M468 161h0">
+</path>
+<rect x="400" y="150" width="68" height="22" rx="10" ry="10">
+</rect>
+<text x="434" y="165">
+PUBLIC</text>
+</g>
+<path d="M468 161h20">
+</path>
+</g>
+<path d="M488 161h10">
+</path>
+<g>
+<path d="M498 161h0">
+</path>
+<path d="M574 161h0">
+</path>
+<rect x="498" y="150" width="76" height="22" rx="10" ry="10">
+</rect>
+<text x="536" y="165">
+SYNONYM</text>
+</g>
+<path d="M574 161h10">
+</path>
+<path d="M584 161h10">
+</path>
+<g>
+<path d="M594 161h0">
+</path>
+<path d="M734 161h0">
+</path>
+<rect x="594" y="150" width="140" height="22">
+</rect>
+<a xlink:href="rule(create_synonym_stmt).html#database_factor"><text x="664" y="165">
+database_factor</text></a>
+</g>
+<path d="M734 161h10">
+</path>
+<path d="M744 161h10">
+</path>
+<g>
+<path d="M754 161h0">
+</path>
+<path d="M782 161h0">
+</path>
+<rect x="754" y="150" width="28" height="22" rx="10" ry="10">
+</rect>
+<text x="768" y="165">
+.</text>
+</g>
+<path d="M782 161h10">
+</path>
+<path d="M792 161h10">
+</path>
+<g>
+<path d="M802 161h0">
+</path>
+<path d="M918 161h0">
+</path>
+<rect x="802" y="150" width="116" height="22">
+</rect>
+<a xlink:href="rule(create_synonym_stmt).html#synonym_name"><text x="860" y="165">
+synonym_name</text></a>
+</g>
+<path d="M918 161h10">
+</path>
+<path d="M928 161h10">
+</path>
+<g>
+<path d="M938 161h0">
+</path>
+<path d="M982 161h0">
+</path>
+<rect x="938" y="150" width="44" height="22" rx="10" ry="10">
+</rect>
+<text x="960" y="165">
+FOR</text>
+</g>
+<path d="M982 161h10">
+</path>
+<path d="M992 161h10">
+</path>
+<g>
+<path d="M1002 161h0">
+</path>
+<path d="M1142 161h0">
+</path>
+<rect x="1002" y="150" width="140" height="22">
+</rect>
+<a xlink:href="rule(create_synonym_stmt).html#database_factor"><text x="1072" y="165">
+database_factor</text></a>
+</g>
+<path d="M1142 161h10">
+</path>
+<path d="M1152 161h10">
+</path>
+<g>
+<path d="M1162 161h0">
+</path>
+<path d="M1190 161h0">
+</path>
+<rect x="1162" y="150" width="28" height="22" rx="10" ry="10">
+</rect>
+<text x="1176" y="165">
+.</text>
+</g>
+<path d="M1190 161h10">
+</path>
+<path d="M1200 161h10">
+</path>
+<g>
+<path d="M1210 161h0">
+</path>
+<path d="M1342 161h0">
+</path>
+<rect x="1210" y="150" width="132" height="22">
+</rect>
+<a xlink:href="rule(create_synonym_stmt).html#synonym_object"><text x="1276" y="165">
+synonym_object</text></a>
+</g>
+<path d="M1342 161h10">
+</path>
+<g>
+<path d="M1352 161h0">
+</path>
+<path d="M1576 161h0">
+</path>
+<path d="M1352 161a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10">
+</path>
+<g>
+<path d="M1372 141h184">
+</path>
+</g>
+<path d="M1556 141a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10">
+</path>
+<path d="M1352 161h20">
+</path>
+<g>
+<path d="M1372 161h0">
+</path>
+<path d="M1556 161h0">
+</path>
+<path d="M1372 161h20">
+</path>
+<g>
+<path d="M1392 161h0">
+</path>
+<path d="M1536 161h0">
+</path>
+<path d="M1392 161h10">
+</path>
+<g>
+<path d="M1402 161h0">
+</path>
+<path d="M1430 161h0">
+</path>
+<rect x="1402" y="150" width="28" height="22" rx="10" ry="10">
+</rect>
+<text x="1416" y="165">
+@</text>
+</g>
+<path d="M1430 161h10">
+</path>
+<path d="M1440 161h10">
+</path>
+<g>
+<path d="M1450 161h0">
+</path>
+<path d="M1526 161h0">
+</path>
+<rect x="1450" y="150" width="76" height="22">
+</rect>
+<a xlink:href="rule(create_synonym_stmt).html#ip_port"><text x="1488" y="165">
+ip_port</text></a>
+</g>
+<path d="M1526 161h10">
+</path>
+</g>
+<path d="M1536 161h20">
+</path>
+</g>
+<path d="M1556 161h20">
+</path>
+</g>
+</g>
+<path d="M1576 161a10 10 0 0 0 10 -10v-100a10 10 0 0 1 10 -10">
+</path>
+</g>
+<path d="M 1596 41 h 20 m -10 -10 v 20 m 10 -20 v 20">
+</path>
+</g>
+</svg>
+</td></tr><tr><td id="synonym_name"><h4>synonym_name</h4></td><td><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="305" height="92" viewBox="0 0 305 92">
+<style type="text/css">svg.railroad-diagram {
+    background-color: hsl(30,20%,95%);
+}
+svg.railroad-diagram path {
+    stroke-width: 3;
+    stroke: black;
+    fill-opacity: 0;
+}
+svg.railroad-diagram text {
+    font: bold 14px monospace;
+    text-anchor: middle;
+}
+svg.railroad-diagram text.label {
+    text-anchor: start;
+}
+svg.railroad-diagram text.comment {
+    font: italic 12px monospace;
+}
+svg.railroad-diagram rect {
+    stroke-width: 3;
+    stroke: black;
+    fill: #9db0e5;
+}
+svg.railroad-diagram rect[rx~="10"] {
+    fill: #c7a6d8;
+}</style>
+<g transform="translate(.5 .5)">
+<path d="M 20 21 v 20 m 10 -20 v 20 m -10 -10 h 20.5">
+</path>
+<g>
+<path d="M40 31h0">
+</path>
+<path d="M264 31h0">
+</path>
+<path d="M40 31h20">
+</path>
+<g>
+<path d="M60 31h44">
+</path>
+<path d="M200 31h44">
+</path>
+<path d="M104 31h10">
+</path>
+<g>
+<path d="M114 31h0">
+</path>
+<path d="M190 31h0">
+</path>
+<rect x="114" y="20" width="76" height="22" rx="10" ry="10">
+</rect>
+<text x="152" y="35">
+NAME_OB</text>
+</g>
+<path d="M190 31h10">
+</path>
+</g>
+<path d="M244 31h20">
+</path>
+<path d="M40 31a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10">
+</path>
+<g>
+<path d="M60 61h0">
+</path>
+<path d="M244 61h0">
+</path>
+<path d="M60 61h10">
+</path>
+<g>
+<path d="M70 61h0">
+</path>
+<path d="M234 61h0">
+</path>
+<rect x="70" y="50" width="164" height="22">
+</rect>
+<a xlink:href="rule(create_synonym_stmt).html#unreserved_keyword"><text x="152" y="65">
+unreserved_keyword</text></a>
+</g>
+<path d="M234 61h10">
+</path>
+</g>
+<path d="M244 61a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10">
+</path>
+</g>
+<path d="M 264 31 h 20 m -10 -10 v 20 m 10 -20 v 20">
+</path>
+</g>
+</svg>
+</td></tr><tr><td id="synonym_object"><h4>synonym_object</h4></td><td><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="305" height="92" viewBox="0 0 305 92">
+<style type="text/css">svg.railroad-diagram {
+    background-color: hsl(30,20%,95%);
+}
+svg.railroad-diagram path {
+    stroke-width: 3;
+    stroke: black;
+    fill-opacity: 0;
+}
+svg.railroad-diagram text {
+    font: bold 14px monospace;
+    text-anchor: middle;
+}
+svg.railroad-diagram text.label {
+    text-anchor: start;
+}
+svg.railroad-diagram text.comment {
+    font: italic 12px monospace;
+}
+svg.railroad-diagram rect {
+    stroke-width: 3;
+    stroke: black;
+    fill: #9db0e5;
+}
+svg.railroad-diagram rect[rx~="10"] {
+    fill: #c7a6d8;
+}</style>
+<g transform="translate(.5 .5)">
+<path d="M 20 21 v 20 m 10 -20 v 20 m -10 -10 h 20.5">
+</path>
+<g>
+<path d="M40 31h0">
+</path>
+<path d="M264 31h0">
+</path>
+<path d="M40 31h20">
+</path>
+<g>
+<path d="M60 31h44">
+</path>
+<path d="M200 31h44">
+</path>
+<path d="M104 31h10">
+</path>
+<g>
+<path d="M114 31h0">
+</path>
+<path d="M190 31h0">
+</path>
+<rect x="114" y="20" width="76" height="22" rx="10" ry="10">
+</rect>
+<text x="152" y="35">
+NAME_OB</text>
+</g>
+<path d="M190 31h10">
+</path>
+</g>
+<path d="M244 31h20">
+</path>
+<path d="M40 31a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10">
+</path>
+<g>
+<path d="M60 61h0">
+</path>
+<path d="M244 61h0">
+</path>
+<path d="M60 61h10">
+</path>
+<g>
+<path d="M70 61h0">
+</path>
+<path d="M234 61h0">
+</path>
+<rect x="70" y="50" width="164" height="22">
+</rect>
+<a xlink:href="rule(create_synonym_stmt).html#unreserved_keyword"><text x="152" y="65">
+unreserved_keyword</text></a>
+</g>
+<path d="M234 61h10">
+</path>
+</g>
+<path d="M244 61a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10">
+</path>
+</g>
+<path d="M 264 31 h 20 m -10 -10 v 20 m 10 -20 v 20">
+</path>
+</g>
+</svg>
+</td></tr><tr><td id="ip_port"><h4>ip_port</h4></td><td><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="461" height="72" viewBox="0 0 461 72">
+<style type="text/css">svg.railroad-diagram {
+    background-color: hsl(30,20%,95%);
+}
+svg.railroad-diagram path {
+    stroke-width: 3;
+    stroke: black;
+    fill-opacity: 0;
+}
+svg.railroad-diagram text {
+    font: bold 14px monospace;
+    text-anchor: middle;
+}
+svg.railroad-diagram text.label {
+    text-anchor: start;
+}
+svg.railroad-diagram text.comment {
+    font: italic 12px monospace;
+}
+svg.railroad-diagram rect {
+    stroke-width: 3;
+    stroke: black;
+    fill: #9db0e5;
+}
+svg.railroad-diagram rect[rx~="10"] {
+    fill: #c7a6d8;
+}</style>
+<g transform="translate(.5 .5)">
+<path d="M 20 31 v 20 m 10 -20 v 20 m -10 -10 h 20.5">
+</path>
+<g>
+<path d="M40 41h0">
+</path>
+<path d="M420 41h0">
+</path>
+<path d="M40 41h20">
+</path>
+<g>
+<path d="M60 41h0">
+</path>
+<path d="M400 41h0">
+</path>
+<path d="M60 41h10">
+</path>
+<g>
+<path d="M70 41h0">
+</path>
+<path d="M138 41h0">
+</path>
+<rect x="70" y="30" width="68" height="22" rx="10" ry="10">
+</rect>
+<text x="104" y="45">
+SERVER</text>
+</g>
+<path d="M138 41h10">
+</path>
+<g>
+<path d="M148 41h0">
+</path>
+<path d="M264 41h0">
+</path>
+<path d="M148 41a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10">
+</path>
+<g>
+<path d="M168 21h76">
+</path>
+</g>
+<path d="M244 21a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10">
+</path>
+<path d="M148 41h20">
+</path>
+<g>
+<path d="M168 41h0">
+</path>
+<path d="M244 41h0">
+</path>
+<rect x="168" y="30" width="76" height="22" rx="10" ry="10">
+</rect>
+<text x="206" y="45">
+COMP_EQ</text>
+</g>
+<path d="M244 41h20">
+</path>
+</g>
+<path d="M264 41h10">
+</path>
+<g>
+<path d="M274 41h0">
+</path>
+<path d="M390 41h0">
+</path>
+<rect x="274" y="30" width="116" height="22" rx="10" ry="10">
+</rect>
+<text x="332" y="45">
+STRING_VALUE</text>
+</g>
+<path d="M390 41h10">
+</path>
+</g>
+<path d="M400 41h20">
+</path>
+</g>
+<path d="M 420 41 h 20 m -10 -10 v 20 m 10 -20 v 20">
+</path>
+</g>
+</svg>
+</td></tr><tr><td id="database_factor"><h4>database_factor</h4></td><td><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="265" height="62" viewBox="0 0 265 62">
+<style type="text/css">svg.railroad-diagram {
+    background-color: hsl(30,20%,95%);
+}
+svg.railroad-diagram path {
+    stroke-width: 3;
+    stroke: black;
+    fill-opacity: 0;
+}
+svg.railroad-diagram text {
+    font: bold 14px monospace;
+    text-anchor: middle;
+}
+svg.railroad-diagram text.label {
+    text-anchor: start;
+}
+svg.railroad-diagram text.comment {
+    font: italic 12px monospace;
+}
+svg.railroad-diagram rect {
+    stroke-width: 3;
+    stroke: black;
+    fill: #9db0e5;
+}
+svg.railroad-diagram rect[rx~="10"] {
+    fill: #c7a6d8;
+}</style>
+<g transform="translate(.5 .5)">
+<path d="M 20 21 v 20 m 10 -20 v 20 m -10 -10 h 20.5">
+</path>
+<g>
+<path d="M40 31h0">
+</path>
+<path d="M224 31h0">
+</path>
+<path d="M40 31h20">
+</path>
+<g>
+<path d="M60 31h0">
+</path>
+<path d="M204 31h0">
+</path>
+<path d="M60 31h10">
+</path>
+<g>
+<path d="M70 31h0">
+</path>
+<path d="M194 31h0">
+</path>
+<rect x="70" y="20" width="124" height="22">
+</rect>
+<a xlink:href="rule(create_synonym_stmt).html#relation_name"><text x="132" y="35">
+relation_name</text></a>
+</g>
+<path d="M194 31h10">
+</path>
+</g>
+<path d="M204 31h20">
+</path>
+</g>
+<path d="M 224 31 h 20 m -10 -10 v 20 m 10 -20 v 20">
+</path>
+</g>
+</svg>
+</td></tr><tr><td id="relation_name"><h4>relation_name</h4></td><td><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="305" height="92" viewBox="0 0 305 92">
+<style type="text/css">svg.railroad-diagram {
+    background-color: hsl(30,20%,95%);
+}
+svg.railroad-diagram path {
+    stroke-width: 3;
+    stroke: black;
+    fill-opacity: 0;
+}
+svg.railroad-diagram text {
+    font: bold 14px monospace;
+    text-anchor: middle;
+}
+svg.railroad-diagram text.label {
+    text-anchor: start;
+}
+svg.railroad-diagram text.comment {
+    font: italic 12px monospace;
+}
+svg.railroad-diagram rect {
+    stroke-width: 3;
+    stroke: black;
+    fill: #9db0e5;
+}
+svg.railroad-diagram rect[rx~="10"] {
+    fill: #c7a6d8;
+}</style>
+<g transform="translate(.5 .5)">
+<path d="M 20 21 v 20 m 10 -20 v 20 m -10 -10 h 20.5">
+</path>
+<g>
+<path d="M40 31h0">
+</path>
+<path d="M264 31h0">
+</path>
+<path d="M40 31h20">
+</path>
+<g>
+<path d="M60 31h44">
+</path>
+<path d="M200 31h44">
+</path>
+<path d="M104 31h10">
+</path>
+<g>
+<path d="M114 31h0">
+</path>
+<path d="M190 31h0">
+</path>
+<rect x="114" y="20" width="76" height="22" rx="10" ry="10">
+</rect>
+<text x="152" y="35">
+NAME_OB</text>
+</g>
+<path d="M190 31h10">
+</path>
+</g>
+<path d="M244 31h20">
+</path>
+<path d="M40 31a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10">
+</path>
+<g>
+<path d="M60 61h0">
+</path>
+<path d="M244 61h0">
+</path>
+<path d="M60 61h10">
+</path>
+<g>
+<path d="M70 61h0">
+</path>
+<path d="M234 61h0">
+</path>
+<rect x="70" y="50" width="164" height="22">
+</rect>
+<a xlink:href="rule(create_synonym_stmt).html#unreserved_keyword"><text x="152" y="65">
+unreserved_keyword</text></a>
+</g>
+<path d="M234 61h10">
+</path>
+</g>
+<path d="M244 61a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10">
+</path>
+</g>
+<path d="M 264 31 h 20 m -10 -10 v 20 m 10 -20 v 20">
+</path>
+</g>
+</svg>
+</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
